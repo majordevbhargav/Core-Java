@@ -1,0 +1,126 @@
+//Program 1
+
+public class ExceptiomDemo {
+
+	public static void main(String[] args) {
+		
+		int age=20;
+		
+		if(age<=18)
+			throw new ArithmeticException("You are not Eligible");
+		else
+			System.out.println("You are Eligible");
+			
+
+	}
+}
+
+
+//Program 2
+
+
+import java.util.Scanner;
+
+public class ExceptiomDemo {
+
+	public static void main(String[] args) {
+		int ar[]= new int[5];
+		
+		System.out.println("Program Starts here");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter First Value");
+		int a=sc.nextInt();
+		System.out.println("Enter Second Value");
+		int b=sc.nextInt();
+		try {
+		System.out.println(ar[7]);
+		int c=a/b;
+		System.out.println("Result= "+c);
+		}
+		
+		catch(ArrayIndexOutOfBoundsException
+				ai) {
+			ai.printStackTrace();
+		}
+		catch(ArithmeticException ae)
+		{
+			System.out.println("Hi! Exception is caught");
+			ae.printStackTrace();
+			
+			
+		}
+		
+		
+	
+	
+		System.out.println("Program Executed Successfully");	
+		}
+		
+		
+
+	}
+
+//Program 3
+
+import java.util.Scanner;
+
+class Test1{
+	public static void main(String[] args) {
+		int x,y,z;
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("Enter a value");
+		x=sc.nextInt();
+		System.out.println("Enter a value");
+		y=sc.nextInt();
+		try {
+			String s=args[0];
+		z=x/y;
+		}
+		catch(ArithmeticException |ArrayIndexOutOfBoundsException ae)
+		{
+			System.out.println(ae);
+			ae.printStackTrace();
+		}
+		System.out.println("I am  in the last");
+	}
+}
+
+
+//Program 4
+
+import java.util.Scanner;
+
+class VotingException extends Exception {
+	
+	VotingException(String str)
+	{
+		super(str);
+	}
+	
+	
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+	  
+		int age;
+		try 
+		{
+			System.out.println("Enter your age");
+		Scanner sc= new Scanner(System.in);
+		age=sc.nextInt();
+		if(age<18)
+			throw new VotingException("You are not Eligible for  Voting");
+		else 
+			System.out.println("You are eligible for voting");
+		}
+		
+		catch(VotingException v)
+		{
+			System.out.println(v.getMessage());
+		}
+	}
+
+}

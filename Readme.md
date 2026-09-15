@@ -47,3 +47,49 @@ Core-Java/
 │   └── Notes, documentation and learning material
 │
 └── README.md
+# 🎯 Long-Term Goal
+
+My goal is to move through the following progression:
+
+```text
+Java Fundamentals
+       ↓
+Object-Oriented Programming
+       ↓
+Collections & Generics
+       ↓
+Exception Handling
+       ↓
+Functional Programming
+       ↓
+Streams & Lambdas
+       ↓
+File Handling & I/O
+       ↓
+Multithreading & Concurrency
+       ↓
+Java Internals
+       ↓
+Data Structures & Algorithms
+       ↓
+JDBC & SQL
+       ↓
+Database Design
+       ↓
+Backend Development
+       ↓
+REST APIs
+       ↓
+Spring
+       ↓
+Spring Boot
+       ↓
+Spring Security
+       ↓
+Microservices
+       ↓
+Distributed Systems
+       ↓
+System Design
+       ↓
+Production-Level Applications

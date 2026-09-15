@@ -1,45 +1,43 @@
-# Core Java Learning Journey
+# Core Java
 
-This repository is my structured journey through Core Java, from fundamentals to object-oriented programming, collections, DSA, concurrency, Java internals, and eventually backend engineering.
+A structured Java learning repository covering fundamentals, object-oriented programming, data structures and algorithms, concurrency, Java internals, and the path toward backend engineering.
 
-## Current structure
+## Purpose
+
+This repository is a long-term record of learning and practice. The goal is to strengthen Java by implementing concepts, debugging them, and gradually moving from language fundamentals to production-oriented backend development.
+
+## Repository Structure
 
 ```text
 Core-Java/
 ├── Basics/   # Java fundamentals and language exercises
 ├── Oops/     # Object-oriented programming practice
 ├── DSA/      # Data structures and algorithms
-└── Doc/      # Learning notes and documentation
+└── Doc/      # Notes and learning material
 ```
 
-## What I am learning
+## Learning Roadmap
 
 ### Foundations
 
-- JDK, JRE, JVM
-- Variables and data types
-- Type casting
-- Operators
-- Input and output
+- JDK, JRE, and JVM
+- Variables, data types, casting, and operators
 - Conditions and loops
-- Methods and method overloading
-- Arrays and strings
-- StringBuilder and StringBuffer
+- Methods and arrays
+- Strings and mutable string types
 
-### OOP
+### Object-Oriented Programming
 
 - Classes and objects
 - Constructors
 - Encapsulation
 - Inheritance
 - Polymorphism
-- Abstraction
-- Interfaces
-- Access modifiers
+- Abstraction and interfaces
+- Composition
 - `this`, `super`, `static`, and `final`
-- Composition and object relationships
 
-### Next stages
+### Advanced Core Java
 
 - Collections and generics
 - Exception handling
@@ -48,28 +46,32 @@ Core-Java/
 - File I/O and NIO
 - Multithreading and concurrency
 - JVM internals
-- DSA and problem solving
+- Memory management and performance
+
+### Backend Path
+
+- Data structures and algorithms
 - JDBC and SQL
-- Spring and Spring Boot
+- Database design
 - REST APIs
+- Spring
+- Spring Boot
 - Spring Security
 - Microservices
+- Distributed systems
 - System design
 
-## Learning philosophy
+## Learning Method
 
-This repository is meant to show progress, not pretend that everything was mastered on day one.
+**Learn → Understand → Implement → Debug → Experiment → Solve → Build → Document**
 
-**Learn → Understand → Write → Break → Debug → Experiment → Solve → Build → Document → Repeat**
+## Long-Term Direction
 
-## Future direction
-
-The long-term goal is to use Java as a strong backend foundation and combine it with my networking and cybersecurity interests to build network-aware software, security platforms, automation systems, and intelligent infrastructure tools.
+The goal is to use Java as a strong backend foundation and combine it with networking, cybersecurity, automation, and intelligent infrastructure projects.
 
 ## Author
 
 **Dev Bhargav**
 
-GitHub: https://github.com/majordevbhargav
-
-LinkedIn: https://www.linkedin.com/in/devbhargav100
+- GitHub: https://github.com/majordevbhargav
+- LinkedIn: https://www.linkedin.com/in/devbhargav100

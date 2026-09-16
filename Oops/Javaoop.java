@@ -4,7 +4,7 @@ object -instance of the class
 Ecapsulation- protect data from direct access
 Abstraction-hides unnecessay deatils 
 Polymorphism-allow the same method to bheave diffently 
-inheritence-reuses code form rxisting class*/
+inheritence-reuses code form existing class*/
 
 
 class Dog {
@@ -27,7 +27,7 @@ class Dog {
 
 }
 
-class Car {
+class Car{
     String brand;
     String model;
     String colour;
@@ -94,7 +94,7 @@ class PrivateConstructor {
     }
 }
 
-public class Javaoop {
+public class Javaoop{
 
     public static void main(String[] args) {
         // static belongs to the class, while an instance variable belongs to an object.
